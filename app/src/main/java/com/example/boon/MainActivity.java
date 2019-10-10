@@ -21,4 +21,10 @@ public class MainActivity extends AppCompatActivity {
         Intent i = new Intent(this, ActionScreen.class);
         startActivity(i);
     }
+
+    public void onClick2(View view)
+    {
+        Intent j = new Intent(this, Registration.class);
+        startActivity(j);
+    }
 }
