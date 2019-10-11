@@ -29,7 +29,21 @@ public class SectionsPagerAdapter extends FragmentPagerAdapter {
     public Fragment getItem(int position) {
         // getItem is called to instantiate the fragment for the given page.
         // Return a PlaceholderFragment (defined as a static inner class below).
-        return PlaceholderFragment.newInstance(position + 1);
+
+        switch (position) {
+            case 0:
+                ServicesFragment serviceTab = new ServicesFragment();
+                return serviceTab;
+            case 1:
+                InfoFragment infoTab = new InfoFragment();
+                return infoTab;
+            case 2:
+                AddFragment addTab = new AddFragment();
+                return addTab;
+            default:
+                return null;
+        }
+
     }
 
     @Nullable
@@ -40,7 +54,7 @@ public class SectionsPagerAdapter extends FragmentPagerAdapter {
 
     @Override
     public int getCount() {
-        // Show 2 total pages.
+        // Show 3 total pages.
         return 3;
     }
 }
