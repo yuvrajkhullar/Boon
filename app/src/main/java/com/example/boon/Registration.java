@@ -14,7 +14,7 @@ public class Registration extends AppCompatActivity {
         setContentView(R.layout.activity_registration);
     }
 
-    public void onClick(View view)
+    public void onClick3(View view)
     {
         Intent k = new Intent(this, MainActivity.class);
         startActivity(k);
