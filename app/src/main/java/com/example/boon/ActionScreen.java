@@ -19,12 +19,12 @@ public class ActionScreen extends AppCompatActivity {
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
-        super.onCreate(savedInstanceState);
-        setContentView(R.layout.activity_action_screen);
-        SectionsPagerAdapter sectionsPagerAdapter = new SectionsPagerAdapter(this, getSupportFragmentManager());
-        ViewPager viewPager = findViewById(R.id.view_pager);
-        viewPager.setAdapter(sectionsPagerAdapter);
-        TabLayout tabs = findViewById(R.id.tabs);
-        tabs.setupWithViewPager(viewPager);
+        super.onCreate(savedInstanceState); //will create an instance state of onCreate
+        setContentView(R.layout.activity_action_screen); //will set the screen to the corresponding xml file
+        SectionsPagerAdapter sectionsPagerAdapter = new SectionsPagerAdapter(this, getSupportFragmentManager()); //will create a SectionsPagerAdapter instance with the given arguments
+        ViewPager viewPager = findViewById(R.id.view_pager); //will create a ViewPager instance with the following parameters
+        viewPager.setAdapter(sectionsPagerAdapter); //calls the setAdapter method on sectionsPagerAdapter
+        TabLayout tabs = findViewById(R.id.tabs); //creates an instance of TabLayout class with the given parameters
+        tabs.setupWithViewPager(viewPager); //calls the setupWithViewPager method with the viewPager parameter
     }
 }

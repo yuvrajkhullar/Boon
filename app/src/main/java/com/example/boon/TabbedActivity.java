@@ -20,20 +20,20 @@ public class TabbedActivity extends AppCompatActivity {
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
-        super.onCreate(savedInstanceState);
-        setContentView(R.layout.activity_tabbed);
-        SectionsPagerAdapter sectionsPagerAdapter = new SectionsPagerAdapter(this, getSupportFragmentManager());
-        ViewPager viewPager = findViewById(R.id.view_pager);
-        viewPager.setAdapter(sectionsPagerAdapter);
-        TabLayout tabs = findViewById(R.id.tabs);
-        tabs.setupWithViewPager(viewPager);
-        FloatingActionButton fab = findViewById(R.id.fab);
+        super.onCreate(savedInstanceState); //will create an instance state of the onCreate class
+        setContentView(R.layout.activity_tabbed); //will set the screen to the corresponding xml file
+        SectionsPagerAdapter sectionsPagerAdapter = new SectionsPagerAdapter(this, getSupportFragmentManager()); //will create a sectionsPagerAdapter instance
+        ViewPager viewPager = findViewById(R.id.view_pager); //will create a viewPager object
+        viewPager.setAdapter(sectionsPagerAdapter); //calls the setAdapter method
+        TabLayout tabs = findViewById(R.id.tabs); //creates an instance of TabLayout class
+        tabs.setupWithViewPager(viewPager); //calls the setupWithViewPager method
+        FloatingActionButton fab = findViewById(R.id.fab); //creates an instance of the FloatingActionButton class
 
         fab.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
-                Snackbar.make(view, "Replace with your own action", Snackbar.LENGTH_LONG)
-                        .setAction("Action", null).show();
+                Snackbar.make(view, "Replace with your own action", Snackbar.LENGTH_LONG) //calls the .make method with given parameters
+                        .setAction("Action", null).show(); //will call the .setAction method without an object.
             }
         });
     }
