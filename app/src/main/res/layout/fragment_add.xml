@@ -22,7 +22,7 @@
                 android:id="@+id/textView10"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
-                android:text="Organization #1"
+                android:text="Trivalley CoderDojo"
                 android:textSize="30sp" />
 
             <TextView
@@ -30,7 +30,7 @@
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:layout_marginLeft="10dp"
-                android:text="Activities: Doing stuff, living, doing other stuff \nType of Volunteering: Comp Sci \nAge Groups: 15 and up \nRecent Activities: Coding, Coding, and Programming" />
+                android:text="Activities: Mentoring students, tech support, lightning talks \nType of Volunteering: Comp Sci \nAge Groups: 15 and up \nRecent Activities: Leading, Mentoring, and Programming" />
 
             <LinearLayout
                 android:layout_width="match_parent"
