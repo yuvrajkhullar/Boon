@@ -68,7 +68,7 @@
                 android:id="@+id/textView11"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
-                android:text="Organization #2"
+                android:text="California Scholarship Federation"
                 android:textSize="30sp" />
 
             <TextView
@@ -76,7 +76,7 @@
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:layout_marginLeft="10dp"
-                android:text="Activities: Doing stuff, living, doing other stuff \nType of Volunteering: Comp Sci \nAge Groups: 15 and up \nRecent Activities: Coding, Coding, and Programming" />
+                android:text="Activities: Food Drives, Volunteering at Elementary School \nType of Volunteering: General \nAge Groups: 14 and up \nRecent Activities: Glide Memorial, Donated to Cancer Foundation" />
 
             <LinearLayout
                 android:layout_width="match_parent"
@@ -113,7 +113,7 @@
                 android:id="@+id/textView15"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
-                android:text="Organization #3"
+                android:text="Dublin SPCA"
                 android:textSize="30sp" />
 
             <TextView
@@ -121,7 +121,7 @@
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:layout_marginLeft="10dp"
-                android:text="Activities: Doing stuff, living, doing other stuff \nType of Volunteering: Comp Sci \nAge Groups: 15 and up \nRecent Activities: Coding, Coding, and Programming" />
+                android:text="Activities: Training cats, walking dogs, cleaning cages \nType of Volunteering: Animal Shelter \nAge Groups: 15 and up \nRecent Activities: Therapy Dog Training Session, Adoption Advertising" />
 
             <LinearLayout
                 android:layout_width="match_parent"
